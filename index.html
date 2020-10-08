@@ -1,1 +1,245 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erick H Nunez | Portfolio</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+
+    <!--Font Awesome Icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Navitation bar -->
+    <div class="uk-position-top">
+        <nav class="uk-navbar-container uk-margin uk-navbar-transparent" uk-navbar>
+            <div class="uk-navbar-center">
+
+                <div class="uk-navbar-center-left">
+                    <div>
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="#aboutSection">About</a></li>
+                            <li><a href="#projectsSection">Projects</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="uk-navbar-item uk-logo" href="#">
+                  <i class="fas fa-robot"></i>
+                </a>
+                <div class="uk-navbar-center-right">
+                    <div>
+                        <ul class="uk-navbar-nav">
+                            <li><a href="#skillsSection">Skills</a></li>
+                            <li><a href="#contactSection">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <!-- Intro text-->
+    <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+        data-src="https://i.imgur.com/joY9wei.jpg" uk-img style="height:550px; background-position: bottom;
+        ">
+        <h1 id="subHeaderHolder">Hello! I'm <br><span id="subHeader"></span></h1>
+    </div>
+
+
+    <!-- Profile Image -->
+    <img id="imageProfile"
+        data-src="https://avatars3.githubusercontent.com/u/3709806?s=460&v=4"
+        width="15%" alt="Erick Nunez profile image" uk-img>
+
+
+
+    <!-- About Section -->
+    <div id="aboutSection" class="uk-section">
+        <div class="uk-container">
+
+            <div id="aboutInfo">
+
+                <p> <span uk-icon="icon: user ; ratio: 1"></span><span><span class="infoTitle"> Name:</span> Erick Nunez
+                        </p>
+                <hr>
+
+                <p><span uk-icon="icon: location ; ratio: 1"></span><span class="infoTitle"> Location:</span> Bloomfield, NJ
+                </p>
+                <hr>
+                <p><span uk-icon="icon: bolt ; ratio: 1"></span><span class="infoTitle"> Hobbies:</span> Board Games </p>
+            </div>
+            <div id="basicInfo" class="uk-card uk-card-default">
+                <div class=" uk-card-header">
+                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                        <div class="uk-width-auto">
+                            <span uk-icon="icon: info"></span>
+                        </div>
+                        <div class="uk-width-expand">
+                            <h2 class="uk-card-title uk-margin-remove-bottom" style="color:#a56b89"> Biomedical Engineer
+                            </h2>
+                            <p id="aboutSub" class="uk-text-meta uk-margin-remove-top fontCustomColor">
+                              Robotics, Biomechanics, Mechatronics
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-card-body">
+                    <p>Biomedical Engineering PhD student at NJIT with a background in Mechanical Engineering currently
+                      working on Biomechanics and Robotic Rehabilitation.
+                      Experienced Apple Mac technician with an appreciation for the user experience.
+                      An Educator of Science and Engineering.
+                    </p>
+                </div>
+
+                <div class="uk-card-footer uk-text-right">
+                    <a href="https://github.com/ercknz" target="_blank" class="uk-icon-button"
+                        uk-icon="github"></a>
+                    <a href="https://www.linkedin.com/in/ercknz/" target="_blank" class="uk-icon-button"
+                        uk-icon="linkedin"></a>
+                    <a href="https://www.twitter.com/ercknz/" target="_blank" class="uk-icon-button"
+                        uk-icon="twitter"></a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="uk-section" id="projectsSection">
+        <div id="projects" class="uk-container">
+
+            <h3 class="uk-text-center headerWhite"> Projects </h3>
+            <hr class="uk-divider-icon">
+            <br>
+
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+              <h2 class="uk-card-title uk-margin-remove-bottom" style="color:#a56b89">
+                Lower Extremity Foot and Ankle Powered Exoskeleton
+                <script
+                  src="https://embed.github.com/view/3d/ercknz/Arm-Support-Modeling/master/Geometry/armSupport-sensorAttachment.stl">
+                </script>
+              </h2>
+              <h2 class="uk-card-title uk-margin-remove-bottom" style="color:#a56b89">
+                Upper Extremity Robotic Arm Support
+              </h2>
+              <h2 class="uk-card-title uk-margin-remove-bottom" style="color:#a56b89">
+                Gait Speed Estimation
+              </h2>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+
+    <!--Skills-->
+
+    <div id="skillsSection" class="uk-section uk-section-muted">
+        <div class="uk-container">
+
+            <h3 class="uk-text-center headers"> Skills </h3>
+            <hr class="uk-divider-icon">
+
+            <br>
+
+            <div id="skillsInfo" class="uk-card uk-card-default uk-card-body">
+                <p id="skillsIntro"> Skills :</p>
+            </div>
+
+
+
+
+            <div class="uk-child-width-auto uk-text-center uk-grid-match uk-margin-auto" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-python fa-2x"></i><br>
+                        <span class="skillsText">Python</span>
+                        <hr class="skillIcon">
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-matlab fa-2x"></i><br>
+                        <span class="skillsText">Matlab</span>
+                        <hr class="skillIcon">
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-cpp fa-2x"></i><br>
+                        <span class="skillsText">C++</span>
+                        <hr class="skillIcon">
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fab fa-github-square fa-2x"></i><br>
+                        <span class="skillsText">GitHub</span>
+                        <hr class="skillIcon">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+
+
+    <!--Contact -->
+    <div class="uk-section uk-section-muted" id="contactSection">
+
+        <div id="projects" class="uk-container">
+            <h3 class="uk-text-center headers"> Let's Connect! </h3>
+            <hr class="uk-divider-icon">
+            <p id="connectText">I'm always excited to grow as an Engineer and welcome any new oppurtunities! If you'd
+                like to get in
+                touch, you can message me on <a href="https://www.linkedin.com/in/ercknz/">LinkedIn</a> or <a
+                    href="mailto:erick.h.nunez@gmail.com">by email</a>.</p>
+        </div>
+        <br>
+
+
+    </div>
+
+    <!--Footer -->
+    <div class="uk-section-muted" id="footerSection">
+        © 2020 Erick H Nunez
+    </div>
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+    <!-- Dynamic typing -->
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+
+
+
+</body>
+
+</html>
