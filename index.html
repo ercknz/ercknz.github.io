@@ -66,19 +66,16 @@
 
 
     <!-- About Section -->
-    <div id="aboutSection" class="uk-section">
+    <div id="aboutSection" class="uk-section uk-section-muted">
         <div class="uk-container">
 
             <div id="aboutInfo">
 
-                <p> <span uk-icon="icon: user ; ratio: 1"></span><span><span class="infoTitle"> Name:</span> Erick Nunez
-                        </p>
+                <p> <span uk-icon="icon: user ; ratio: 1"></span><span><span class="infoTitle">  Name: </span><b> Erick H Nunez</b></p>
                 <hr>
-
-                <p><span uk-icon="icon: location ; ratio: 1"></span><span class="infoTitle"> Location:</span> Bloomfield, NJ
-                </p>
+                <p><span uk-icon="icon: location ; ratio: 1"></span><span class="infoTitle">  Location: </span><b> Bloomfield, NJ</b></p>
                 <hr>
-                <p><span uk-icon="icon: bolt ; ratio: 1"></span><span class="infoTitle"> Hobbies:</span> Board Games </p>
+                <p><i class="fas fa-dice-d20"></i><span class="infoTitle">  Hobbies: </span><b> Board Games, Martial Arts </b></p>
             </div>
             <div id="basicInfo" class="uk-card uk-card-default">
                 <div class=" uk-card-header">
@@ -90,7 +87,7 @@
                             <h2 class="uk-card-title uk-margin-remove-bottom" style="color:#a56b89"> Biomedical Engineer
                             </h2>
                             <p id="aboutSub" class="uk-text-meta uk-margin-remove-top fontCustomColor">
-                              Robotics, Biomechanics, Mechatronics
+                              Robotics, Biomechanics, Mechatronics, Mechanical Engineering
                             </p>
                         </div>
                     </div>
@@ -118,7 +115,7 @@
     </div>
 
     <!-- Projects -->
-    <div class="uk-section" id="projectsSection">
+    <div class="uk-section uk-section-muted" id="projectsSection">
         <div id="projects" class="uk-container">
 
             <h2 class="uk-text-center headerWhite"> Projects </h2>
@@ -126,63 +123,72 @@
             <br>
 
             <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
-              <h2 class="uk-card-title uk-margin-remove-bottom" style="color:#a56b89">
-                Lower Extremity Foot and Ankle Powered Exoskeleton
-                <script
-                  src="https://embed.github.com/view/3d/ercknz/ercknz.github.io/master/ankle-foot_system_v4.stl">
-                </script>
-                  <h4>
-                    <p>
+              <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                  <h2 class="uk-card-title uk-margin-remove-bottom uk-text-center" style="color:#a56b89">
+                      Lower Extremity Foot and Ankle Powered Exoskeleton </h2>
+                  <hr class="skillIcon">
+                  <iframe
+                    height="420" width="100%" frameborder="0"
+                    src="https://render.githubusercontent.com/view/3d?url=https://raw.githubusercontent.com/ercknz/ercknz.github.io/master/ankle-foot_system_v4.stl"
+                    title="ankle-foot_system_v4.stl"></iframe>
+                  <p>
                       Designed and manufactured a 2 degree of freedom foot and ankle powered system which
                       would provide a lower extremity exoskeleton with the ability to balance and ambulate
                       more like a bioped. Robotic system provided dorsi/plantar flexion and inversion/eversion
                       and has an intergrated force plate to detect center of pressure. System is driven by 2 posteriorly
-                      mounted custom linear actuators which control the it differentially.
-                    </p>
-                  </h4>
-                  <h4 style="color:#a56b89">
-                    Publications:
-                    <ul>
-                      <li><a href="https://ieeexplore.ieee.org/document/8383821">2-DoF ankle-foot system: Implementation of balance for lower extremity exoskeletons</a> </li>
-                      <li> <a href="https://ieeexplore.ieee.org/document/8383864">Research and development of new generation robotic exoskeleton for over ground walking in individuals with mobility disorders (Novel design and control)</a> </li>
-                      <li> <a href="https://www.researchgate.net/publication/334821589_Modeling_and_Validation_of_a_Novel_Robotic_Lower_Extremity_Exoskeleton_for_Neurorehabilitation">Modeling and Validation of a Novel Robotic Lower Extremity Exoskeleton for Neurorehabilitation</a> </li>
-                    </ul>
-                  </h4 >
-              </h2>
-              <h2 class="uk-card-title uk-margin-remove-bottom" style="color:#a56b89">
-                Upper Extremity Robotic Arm Support
-                <script
-                  src="https://embed.github.com/view/3d/ercknz/ercknz.github.io/master/arm_support_assembly.stl">
-                </script>
-                  <h4>
-                    <p>
-                      Designed and manufactured a 3 degree of freedom robotic arm support. Support gets
-                      mounted to the back of a seat and attaches to a user's wrist at the end effector.
-                      The system is backdriveable so in case of powerloss the user an safely move it.
-                      Robotic arm support is controlled from a microcontroller and run an Admittance
-                      control loop which interfaces with Matlab. Code is available on <a href=https://github.com/ercknz/Admittance-Control-for-Arm-Support>Github</a>.
-                    </p>
-                  </h4>
-              </h2>
-              <h2 class="uk-card-title uk-margin-remove-bottom" style="color:#a56b89">
-                Gait Speed Estimation
-                  <h4>
+                      mounted custom linear actuators which control the it differentially.</p>
+                  <iframe
+                    width="100%" height="420"
+                    src="https://www.youtube.com/embed/28-DkgRvwz0"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <h4 class="uk-text-center" style="color:#a56b89">Publications</h4>
+                  <hr class="skillIcon">
+                  <ul>
+                    <li><a href="https://ieeexplore.ieee.org/document/8383821" target=_blank>2-DoF ankle-foot system: Implementation of balance for lower extremity exoskeletons</a> </li>
+                    <li> <a href="https://ieeexplore.ieee.org/document/8383864" target=_blank>Research and development of new generation robotic exoskeleton for over ground walking in individuals with mobility disorders (Novel design and control)</a> </li>
+                    <li> <a href="https://www.researchgate.net/publication/334821589_Modeling_and_Validation_of_a_Novel_Robotic_Lower_Extremity_Exoskeleton_for_Neurorehabilitation" target=_blank>Modeling and Validation of a Novel Robotic Lower Extremity Exoskeleton for Neurorehabilitation</a> </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                  <h2 class="uk-card-title uk-margin-remove-bottom uk-text-center" style="color:#a56b89">
+                    Upper Extremity Robotic Arm Support</h2>
+                  <hr class="skillIcon">
+                  <iframe
+                    height="420" width="100%" frameborder="0"
+                    src="https://render.githubusercontent.com/view/3d?url=https://raw.githubusercontent.com/ercknz/ercknz.github.io/master/arm_support_assembly.stl"
+                    title="arm_support_assembly.stl"></iframe>
+                  <p>
+                    Designed and manufactured a 3 degree of freedom robotic arm support. Support gets
+                    mounted to the back of a seat and attaches to a user's wrist at the end effector.
+                    The system is backdriveable so in case of powerloss the user an safely move it.
+                    Robotic arm support is controlled from a microcontroller and run an Admittance
+                    control loop which interfaces with Matlab. Code is available on
+                    <a href=https://github.com/ercknz/Admittance-Control-for-Arm-Support target=_blank>Github</a>.</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="uk-card uk-card-default uk-card-body">
+                    <h2 class="uk-card-title uk-margin-remove-bottom uk-text-center" style="color:#a56b89">
+                      Gait Speed Estimation Algorithms</h2>
+                    <hr class="skillIcon">
                     <p>
                       Multiple algorithms were developed and tested in Matlab which took subject data
                       from accelerometers placed on their ankles and hips. The purpose of the project
                       was to develop a protocol for clinicians to be able to quickly and inexpensively
                       measure a patient's walking speed. The final algorithm proposed isolated subjects'
                       midstance, toe-off, heel-strike and midswings to present an average step profile.
-                      Matlab code is available on <a href=https://github.com/ercknz/MidStance-Gait-Analysis-Algorithms>Github</a>.
-                    </p>
-                  </h4>
-                  <h4 style="color:#a56b89">
-                    Publications:
+                      Matlab code is available on <a href=https://github.com/ercknz/MidStance-Gait-Analysis-Algorithms target=_blank>Github</a>.</p>
+                    <h4 class="uk-text-center" style="color:#a56b89">Publications</h4>
+                    <hr class="skillIcon">
                     <ul>
-                      <li> <a href="https://ieeexplore.ieee.org/document/9175341">Comparing different methods of gait speed estimation using wearable sensors in individuals with varying levels of mobility impairments</a> </li>
+                      <li> <a href="https://ieeexplore.ieee.org/document/9175341" target=_blank>Comparing different methods of gait speed estimation using wearable sensors in individuals with varying levels of mobility impairments</a> </li>
                     </ul>
-                  </h4 >
-              </h2>
+                  </div>
+                </div>
             </div>
         </div>
         <br>
@@ -199,13 +205,6 @@
 
             <br>
 
-            <div id="skillsInfo" class="uk-card uk-card-default uk-card-body">
-                <p id="skillsIntro"> Skills :</p>
-            </div>
-
-
-
-
             <div class="uk-child-width-auto uk-text-center uk-grid-match uk-margin-auto" uk-grid>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
@@ -217,8 +216,8 @@
 
                 <div>
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
-                        <i class="fab fa-matlab fa-2x"></i><br>
-                        <span class="skillsText">Matlab</span>
+                        <i class="fas fa-chart-bar fa-2x"></i><br>
+                        <span class="skillsText">MATLAB</span>
                         <hr class="skillIcon">
                     </div>
                 </div>
@@ -226,7 +225,7 @@
 
                 <div>
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
-                        <i class="fab fa-cpp fa-2x"></i><br>
+                        <i class="fas fa-code fa-2x"></i><br>
                         <span class="skillsText">C++</span>
                         <hr class="skillIcon">
                     </div>
@@ -243,7 +242,7 @@
 
                 <div>
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
-                        <i class="fab fa- fa-2x"></i><br>
+                        <i class="fas fa-microchip fa-2x"></i><br>
                         <span class="skillsText">Arduino</span>
                         <hr class="skillIcon">
                     </div>
@@ -251,7 +250,7 @@
 
                 <div>
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
-                        <i class="fab fa- fa-2x"></i><br>
+                        <i class="fas fa-drafting-compass fa-2x"></i><br>
                         <span class="skillsText">Creo</span>
                         <hr class="skillIcon">
                     </div>
@@ -259,7 +258,7 @@
 
                 <div>
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
-                        <i class="fab fa- fa-2x"></i><br>
+                        <i class="fas fa-cogs fa-2x"></i><br>
                         <span class="skillsText">Ansys</span>
                         <hr class="skillIcon">
                     </div>
@@ -267,7 +266,7 @@
 
                 <div>
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
-                        <i class="fab fa- fa-2x"></i><br>
+                        <i class="fas fa-cubes fa-2x"></i><br>
                         <span class="skillsText">Additive<br>Manufacturing</span>
                         <hr class="skillIcon">
                     </div>
@@ -275,7 +274,7 @@
 
                 <div>
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
-                        <i class="fab fa- fa-2x"></i><br>
+                        <i class="fa fa-robot fa-2x"></i><br>
                         <span class="skillsText">Mechatronics</span>
                         <hr class="skillIcon">
                     </div>
@@ -283,8 +282,16 @@
 
                 <div>
                     <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
-                        <i class="fab fa- fa-2x"></i><br>
+                        <i class="fas fa-draw-polygon fa-2x"></i><br>
                         <span class="skillsText">Mechanical<br>Design</span>
+                        <hr class="skillIcon">
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body cardSkillWidth">
+                        <i class="fas fa-tools fa-2x"></i><br>
+                        <span class="skillsText">Workshop<br>Experience</span>
                         <hr class="skillIcon">
                     </div>
                 </div>
@@ -304,7 +311,7 @@
             <hr class="uk-divider-icon">
             <p id="connectText">I'm always excited to grow as an Engineer and welcome any new oppurtunities! If you'd
                 like to get in
-                touch, you can message me on <a href="https://www.linkedin.com/in/ercknz/">LinkedIn</a> or <a
+                touch, you can message me on <a href="https://www.linkedin.com/in/ercknz/" target=_blank>LinkedIn</a> or <a
                     href="mailto:erick.h.nunez@gmail.com">by email</a>.</p>
         </div>
         <br>
