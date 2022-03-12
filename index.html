@@ -30,7 +30,7 @@
                     <div>
                         <ul class="uk-navbar-nav">
                             <li class="uk-active"><a href="#aboutSection">About</a></li>
-                            <li><a href="#projectsSection">Projects</a></li>
+                            <li class="uk-active"><a href="#projectsSection">Projects</a></li>
                         </ul>
                     </div>
                 </div>
@@ -40,8 +40,8 @@
                 <div class="uk-navbar-center-right">
                     <div>
                         <ul class="uk-navbar-nav">
-                            <li><a href="#skillsSection">Skills</a></li>
-                            <li><a href="#contactSection">Contact</a></li>
+                            <li class="uk-active"><a href="#skillsSection">Skills</a></li>
+                            <li class="uk-active"><a href="#contactSection">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -54,63 +54,69 @@
     <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
         data-src="https://careerswithstem.com.au/wp-content/uploads/2017/05/Highlight-banner_RobotsandBooks.jpg" uk-img style="height:401px; background-position: top;
         ">
-        <h1 id="subHeaderHolder" class="uk-text-center">Erick Nunez's<br>Portfolio</h1>
+        <h1 class="uk-text-center" style="color:#585858">Erick H Nuñez's<br>Portfolio</h1>
     </div>
 
-
-    <!-- Profile Image -->
-    <img id="imageProfile"
-        data-src="https://avatars3.githubusercontent.com/u/3709806?s=460&v=4"
-        width="15%" alt="Erick Nunez profile image" uk-img>
-
-
+    <h1 class="uk-text-center" style="color:#585858">Erick H Nuñez's<br>Portfolio</h1>
 
     <!-- About Section -->
     <div id="aboutSection" class="uk-section uk-section-muted">
         <div class="uk-container">
 
-            <div id="aboutInfo">
+            <h2 class="uk-text-center headerWhite"> About </h2>
+            <hr class="uk-divider-icon">
 
-                <p> <span uk-icon="icon: user ; ratio: 1"></span><span><span class="infoTitle">  Name: </span><b> Erick H Nunez</b></p>
-                <hr>
-                <p><span uk-icon="icon: location ; ratio: 1"></span><span class="infoTitle">  Location: </span><b> Bloomfield, NJ</b></p>
-                <hr>
-                <p><i class="fas fa-dice-d20"></i><span class="infoTitle">  Hobbies: </span><b> Board Games, Martial Arts </b></p>
-            </div>
-            <div id="basicInfo" class="uk-card uk-card-default">
-                <div class=" uk-card-header">
-                    <div class="uk-grid-small uk-flex-middle" uk-grid>
-                        <div class="uk-width-auto">
-                            <span uk-icon="icon: info"></span>
-                        </div>
-                        <div class="uk-width-expand">
-                            <h2 class="uk-card-title uk-margin-remove-bottom" style="color:#a56b89"> Biomedical Engineer
-                            </h2>
-                            <p id="aboutSub" class="uk-text-meta uk-margin-remove-top fontCustomColor">
-                              Robotics, Biomechanics, Mechatronics, Mechanical Engineering
-                            </p>
-                        </div>
+            <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <!-- Profile Image -->
+                        <img id="imageProfile"
+                            class="uk-align-center"
+                            data-src="https://avatars3.githubusercontent.com/u/3709806?s=460&v=4"
+                            width="50%" alt="Erick Nunez profile image" uk-img/>
+                        <p> <span uk-icon="icon: user ; ratio: 1"></span><span><span class="infoTitle">  Name: </span><b> Erick H Nuñez</b></p>
+                        <hr>
+                        <p><span uk-icon="icon: location ; ratio: 1"></span><span class="infoTitle">  Location: </span><b> Bloomfield, NJ</b></p>
+                        <hr>
+                        <p><i class="fas fa-dice-d20"></i><span class="infoTitle">  Hobbies: </span><b> Board Games, Martial Arts </b></p>
                     </div>
                 </div>
-                <div class="uk-card-body">
-                    <p>Biomedical Engineering PhD student at NJIT with a background in Mechanical Engineering currently
-                      working on Biomechanics and Robotic Rehabilitation.
-                      Experienced Apple Mac technician with an appreciation for the user experience.
-                      An Educator of Science and Engineering.
-                    </p>
-                </div>
-
-                <div class="uk-card-footer uk-text-right">
-                    <a href="https://github.com/ercknz" target="_blank" class="uk-icon-button"
-                        uk-icon="github"></a>
-                    <a href="https://www.linkedin.com/in/ercknz/" target="_blank" class="uk-icon-button"
-                        uk-icon="linkedin"></a>
-                    <a href="https://www.twitter.com/ercknz/" target="_blank" class="uk-icon-button"
-                        uk-icon="twitter"></a>
+                <div>
+                    <div id="basicInfo" class="uk-card uk-card-default uk-card-body">
+                        
+                            <div class=" uk-card-header">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <span uk-icon="icon: info"></span>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h2 class="uk-card-title uk-margin-remove-bottom" style="color:#a56b89"> Biomedical Engineer
+                                        </h2>
+                                        <p id="aboutSub" class="uk-text-meta uk-margin-remove-top fontCustomColor">
+                                          Robotics, Biomechanics, Mechatronics, Mechanical Engineering
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-card-body">
+                                <p>Biomedical Engineering PhD student at NJIT with a background in Mechanical Engineering currently
+                                  working on Biomechanics and Robotic Rehabilitation.
+                                  Experienced Apple Mac technician with an appreciation for the user experience.
+                                  An Educator of Science and Engineering.
+                                </p>
+                            </div>
+            
+                            <div class="uk-card-footer uk-text-right">
+                                <a href="https://github.com/ercknz" target="_blank" class="uk-icon-button"
+                                    uk-icon="github"></a>
+                                <a href="https://www.linkedin.com/in/ercknz/" target="_blank" class="uk-icon-button"
+                                    uk-icon="linkedin"></a>
+                                <a href="https://www.twitter.com/ercknz/" target="_blank" class="uk-icon-button"
+                                    uk-icon="twitter"></a>
+                            </div>
+                    </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 
@@ -191,7 +197,6 @@
                 </div>
             </div>
         </div>
-        <br>
         <br>
     </div>
 
@@ -321,7 +326,7 @@
 
     <!--Footer -->
     <div class="uk-section-muted" id="footerSection">
-        © 2020 Erick H Nunez
+        © 2022 Erick H Nunez
     </div>
 
     <!-- UIkit JS -->
